@@ -1,0 +1,21 @@
+treeSNE to do list
+
+save parfor1 outputs in different directory
+do local_density calcs on basis of used_markers, but save all_markers
+add description of parameters to runs file
+
+parfor_1_read_individual_fcs_get_downsampling_info_treeSNE
+- saves all data, all marker_names, index of used_markers
+
+
+
+
+for_3_Prepare_DataForSPADE_treeSNE
+ - adjust local_density to take into account downsampling
+
+add extra_markers during for2
+remember to save it again during for3
+in for_4, replace is_marker_selected with used_markers, also add extra_markers to saved elements
+in group_..., take used_markers and extra_markers as inputs, adapt
+
+

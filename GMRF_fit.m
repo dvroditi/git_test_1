@@ -3,7 +3,6 @@ addpath(genpath('lib'));
 
 clear all;
 
-saveStem='prostate_run_split_large_mean'; %original saveStem from treeSNE_runs plus include _mean
 outputDir = '/Users/delaura/Documents/MATLAB/Code/treeSNE/PC/prostate_run_split_large/'; %directory where treeSNE outputs can be found
 A = importdata(fullfile(outputDir, [saveStem '_clusters.txt']))
 
